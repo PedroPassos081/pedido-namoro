@@ -1,0 +1,44 @@
+body {
+    background-color: blueviolet; 
+}
+
+.painel {
+    background-color: #fff;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+#sim {
+    position:absolute;
+    height: 40px;
+    width: 60px;
+    background-color: blueviolet;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+#nao {
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    background-color: blueviolet;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    margin-left: 210px;
+    margin-top: 20px;
+}
+
+img {
+    margin-top: 90px;
+}
+

@@ -1,0 +1,28 @@
+/* Reset CSS */
+
+/* Remove as margens padrão e preenchimentos de todos os elementos */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  /* Define uma fonte padrão */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Remove a decoração de links padrão */
+  a {
+    text-decoration: none;
+  }
+  
+  /* Remove os pontos das listas não ordenadas */
+  ul {
+    list-style: none;
+  }
+  
+  /* Define o box-sizing como 'border-box' para evitar problemas de dimensionamento */
+  * {
+    box-sizing: border-box;
+  }
