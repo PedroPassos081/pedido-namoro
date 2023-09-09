@@ -1,28 +1,75 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="ligh">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
-
-    <title>Namora comigo?</title>
+    <title>DevLinks</title>
   </head>
   <body>
-    <div class="container">
-      <div class="painel">
-        <h2>Aceita namorar comigo?</h2>
-
-        <button onclick="aceitou()" id="sim">sim!</button>
-        <button onmouseover="fuja()" id="nao">Não!</button>
-
-        <img
-          src="https://gifman.net/wp-content/uploads/2019/06/ursinho-fofo-apaixonado.gif"
-          alt=""
-        />
+    <div id="container">
+      <div id="profile">
+        <img src="./assets/avatar.png" alt="avatar" />
+        <p>@Pedro.Passos081</p>
       </div>
 
-      <script src="main.js"></script>
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+
+      <ul>
+        <li>
+          <a href="#">Inscrever-se</a>
+        </li>
+        <li>
+          <a href="https://github.com/PedroPassos081" target="_blank"
+            >Meu portifólio</a
+          >
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/pedro-passos081/" target="_blank"
+            >Meu Linkedin</a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/PedroPassos081" target="_blank"
+            >Meu Github</a
+          >
+        </li>
+      </ul>
+      <div id="social-links">
+        <a href="https://github.com/PedroPassos081" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="https://www.instagram.com/itspedropassos/" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+
+        <a href="https://www.linkedin.com/in/pedro-passos081/" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+      <footer>
+        Feito com ♥ pela <a href="https://rockeseat.com.br">Rocketseat</a>
+      </footer>
     </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="./index.js"></script>
   </body>
 </html>
